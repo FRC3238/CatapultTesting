@@ -2,6 +2,9 @@
 ## Eclipse
 #################
 
+PPC603gnu
+.wrmakefile
+.wrproject
 *.pydevproject
 .project
 .metadata
