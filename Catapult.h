@@ -3,6 +3,8 @@
 
 #include <WPILib.h>
 #include "Settings.h"
+#include "InsightLT_CPP/InsightLT.h"
+using namespace insight;
 
 class Catapult : public IterativeRobot {
 	
@@ -22,6 +24,9 @@ class Catapult : public IterativeRobot {
 		Talon *motorTwoTalon;
 		Timer *timer;
 		SettingsGetter *settings;
+		Encoder *encoder;
+		InsightLT insight;
+		IntegerData insight_encoderCount;
 };
 
 #endif
