@@ -1,2 +1,0 @@
-motorPower d -1.0
-throwTime d 310.0

@@ -27,6 +27,8 @@ class Catapult : public IterativeRobot {
 		Encoder *encoder;
 		InsightLT insight;
 		IntegerData insight_encoderCount;
+		DriverStation *DS;
+		DriverStationEnhancedIO &DSEIO;
 };
 
 #endif
